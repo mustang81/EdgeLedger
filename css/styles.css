@@ -40,7 +40,11 @@ img{width:100%;}
   position:fixed;
   top:0;
   width:100%;
+  transition: .5s;
 
+}
+.navbar.top{
+  background-color: transparent;
 }
 .navbar ul{
   display: flex;
@@ -101,4 +105,87 @@ img{width:100%;}
 .hero .content *{
   z-index: 10;
 }
+.hero.blog{
+  background: url(../images/home/blog.jpg) no-repeat center center/cover;
+  height:30vh;
+}
 /* ----------hero section-------------- */
+/* -------------About section------------ */
+.icon{
+  padding:30px;
+}
+.icon i{
+  background-color: #28a745;
+  padding:1rem;
+  border-radius: 50%;
+  color:#fff;
+  margin-bottom: 15px;
+}
+.icon h3{
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+
+/* -------------About section------------ */
+.cases img:hover{
+  opacity: .7;
+
+}
+.callback-form{
+  width:100%;
+  padding:20px 0;
+}
+.callback-form .form-control{
+  margin-bottom: 15px;
+}
+.callback-form input{
+  height: 40px;
+  width: 100%;
+  padding:4px;
+  border:1px solid #f5f5f5;
+  margin-bottom: 5px;
+}
+.callback-form .btn{
+  /* width:100%; */
+  padding:12px 0;
+  margin-top:20px;
+}
+.callback-form input:focus{
+  outline-color: #28a745;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+
+}
+.footer a{
+  color:#fff;
+}
+.footer a:hover{
+  color: #28a745;
+}
+.social > *{
+  margin-right: 30px;
+}
+.post{
+  padding:50px 30px;
+}
+.post h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  border-bottom:1px solid #333;
+}
+.post .meta{
+  margin-bottom: 30px;
+}
+.post img{
+  max-width:40%;
+  display: block;
+  margin:0 auto 30px;
+}
